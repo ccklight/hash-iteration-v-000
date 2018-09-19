@@ -25,6 +25,6 @@ def happy_birthday(birthday_kids)
     "Sarah" => 6,
     "Amanda" => 27
 }
-  
+   each.do | kids_name, age|
   puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
 end
